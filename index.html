@@ -5,9 +5,7 @@
     <title>STRIVE</title>
   <style>
     body{
-      background-image: url("home-office-569153_1920.jpg");
-      /*background-color: lightslategrey;*/
-
+      background-image: url("office-865091_1920.jpg");
     }
     .strivenavbar{
       width: 100%;
@@ -26,6 +24,7 @@
         font-size: 30px;
         color: white;
       font-weight: bold;
+      margin-right: 10px;
     }
     .snavigation-menu{
       display: flex;
@@ -37,7 +36,7 @@
     .snav-button{
      font-weight: bold;
            font-size: 20px;
-           background-color: orange;
+           background-color: darkorange;
            color: white;
            border-radius: 40px;
            padding: 12px 30px;
@@ -55,30 +54,54 @@
     }
      h1{
       text-align: center;
-       border-bottom: 3px solid orange ;
+       /*border-bottom: 3px solid darkorange;*/
+       display: inline-block;
 
-       
 
+       li{color: blue;
+           text-decoration: none;
+           font-size: 20px;
+           font-weight: bold;
+       }
     }
-
-
+     .snav-link:hover{
+       color: white;
+       font-weight: bolder;
+       border-bottom: darkorange;
+     }
+     .dot{
+       color: darkorange;
+       font-weight: bolder;
+       font-size: 30px;
+       margin-right: 50px;
+     }
+     hr{
+       color: darkorange;
+     }
   </style>
 </head>
 <body>
+<!--<div class="background">-->
+<!--  <div class="content">-->
+<!--  </div>-->
+<!--</div>-->
 <nav class="strivenavbar">
   <div class="snavcontainer">
     <div class="slogo">
-      Strive.
+      Strive
     </div>
+  <div class="dot">
+    .
+  </div>
     <ul class="snavigation-menu">
-      <li class="snav-item"><a href=""></a>Home</li>
-      <li class="snav-item">About</li>
-      <li class="snav-item">Services</li>
-      <li class="snav-item">Portfolio</li>
-      <li class="snav-item">Pricing</li>
-      <li class="snav-item">Blog</li>
-      <li class="snav-item">Dropdown</li>
-      <li class="snav-item">Contact</li>
+      <li class="snav-item"><a href="#index" class="snav-link"></a>Home</li>
+      <li class="snav-item"><a href="#About" class="snav-link"></a>about</li>
+      <li class="snav-item"><a href="#services" class="snav-link"></a>service</li>
+      <li class="snav-item"><a href="#portf" class="snav-link"></a>portfolio</li>
+      <li class="snav-item"><a href="#price" class="snav-link"></a>pricing</li>
+      <li class="snav-item"><a href="#blogf" class="snav-link"></a>blog</li>
+      <li class="snav-item"><a href="#dropdown" class="snav-link"></a>dropdown</li>
+      <li class="snav-item"><a href="#contact" class="snav-link"></a>contact</li>
     </ul>
     <div >
       <button class="snav-button">Get Started</button>
@@ -88,6 +111,7 @@
 <main>
   <section>
     <h1>Building Trust,Driving Growth</h1>
+    <hr style="width: 100px; height: 1px;">
     <p>Present tour business with confidence using a clean,flexible and a fully responsive template yhat helps you connect with clients,attract opportunities and strengthen your brand identity.</p>
 <button class="snav-button">Get Started</button>
   </section>
